@@ -1,0 +1,43 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap";
+
+.answer, .question {
+  border-left: 3px solid grey;
+  padding: 5px 10px;
+}
+
+.answer {
+  margin-top: 30px;
+  background-color: #FFFAEF;
+}
+
+.link {
+  margin-top: 30px
+}
+
+.link a {
+  text-decoration: none;
+  color: red;
+}
+
+.link a:hover {
+  font-weight: bold;
+}
+
+
+input {
+  width: 400px;
+  margin-right: 0;
+}
+
+.btn-mine {
+  width: 100px;
+  background-color: rgb(20,20,20);
+  border-radius: 10px;
+  color: white;
+  border: 1px solid rgb(20,20,20);
+  padding: 5px;
+  margin-left: 0;
+}
